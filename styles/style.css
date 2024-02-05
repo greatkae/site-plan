@@ -109,4 +109,9 @@ footer p{
 footer p a :hover{
     text-decoration: underline;
 }
-
+footer p{
+    text-align: center;
+}
+div.social{
+    margin-left: 560px;
+}
