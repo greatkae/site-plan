@@ -1,5 +1,7 @@
 body{
     background-color: #999;
+    padding: 0;
+    margin: 0;
     
 }
 header{
@@ -9,9 +11,14 @@ header{
 footer{
     background-color: #999;
     color: #2B2D42;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h1{
     font-size: 3em;
+}
+h2{
+    margin: 0;
 }
 p{
     font-size: 3em;
@@ -26,9 +33,11 @@ img.logo{
 }
 img.icon{
     width: 80px;
+    padding-top: 10px;
 }
 img#Hero_img{
-    width: 1200px
+    width: 1200px;
+    margin: 10px;
 }
 img.social_media{
     width: 40px;
@@ -49,6 +58,9 @@ div.button-box{
 h1#home-title{
     text-align: center;
     color: #2B2D42;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 section#Hero-msg h4{
     text-align: center;
@@ -58,6 +70,7 @@ nav a{
     text-align: center;
     color: #2B2D42;
     text-decoration: none;
+    padding: 35px;
 }
 #background{
     height: 725px;
@@ -68,6 +81,8 @@ nav a:hover{
 }
 .msg{
     background-color: #999;
+    line-height: 1.5em;
+    padding: 35px;
 }
 #background{
     background-color: #999;
@@ -76,11 +91,19 @@ nav a:hover{
     background-color: #999;
     color: #2B2D42;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #999;
     color: #2B2D42;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px; 
+    border-radius: 5px;
 }
 .book :hover{
     background-color: #999;
@@ -92,9 +115,12 @@ nav a:hover{
 }
 .msg h2{
     color: #2B2D42;
+    font-family: 'Times New Roman', Times, serif;
 }
 .msg p{
     color: #2B2D42;
+    font-size: 2em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #2B2D42;
@@ -114,4 +140,28 @@ footer p{
 }
 div.social{
     margin-left: 560px;
+}
+h1{
+    text-align: center;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
