@@ -45,7 +45,7 @@ img.icon{
     padding-top: 10px;
 }
 img#Hero_img{
-    width: 1200px;
+    width: 100%;
     margin: 10px;
     grid-column: 2/3;
     grid-row: 1/2;
