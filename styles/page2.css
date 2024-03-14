@@ -5,7 +5,7 @@ body{
     
 }
 header{
-    background-color: #999;
+    background-color: goldenrod;
     display: grid;
     grid-template-columns: 150px auto;
     
@@ -15,7 +15,7 @@ nav{
     justify-content: space-around;
 }
 footer{
-    background-color: #999;
+    background-color: goldenrod;
     color: #2B2D42;
     padding: 25px 50px;
     margin-top: 200px;
